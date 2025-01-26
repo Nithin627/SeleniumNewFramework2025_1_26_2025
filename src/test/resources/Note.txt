@@ -1,0 +1,24 @@
+Thread Local / Thread safe:-
+-> Object will store in Heap memory
+   ex:- String name= new String();
+
+-> Primitive data type are store in stack memory
+     int a=2;
+
+->
+
+ex :-
+  main (){
+    a();
+  }
+
+   a(){
+    String ="nithin";
+    int num=3;
+
+    b();
+   }
+
+   b(){
+   MyObject ob=new MyObject();
+   }
